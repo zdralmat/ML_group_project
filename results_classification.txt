@@ -1,0 +1,30 @@
+RandomForest
+accuracy: []
+f1: []
+precision: []
+recall: []
+roc_auc: []
+SVM
+accuracy: []
+f1: []
+precision: []
+recall: []
+roc_auc: []
+GaussianNB
+accuracy: [accuracy: 0.8209183064997019 with params: {'var_smoothing': 1e-09}]
+f1: [f1: 0.6120642731304294 with params: {'var_smoothing': 1e-09}]
+precision: [precision: 0.566140526140526 with params: {'var_smoothing': 1e-09}]
+recall: [recall: 0.8 with params: {'var_smoothing': 1e-09}]
+roc_auc: [roc_auc: 0.9037372810675564 with params: {'var_smoothing': 1e-09}]
+MultinomialNB
+accuracy: [accuracy: 0.8133094812164579 with params: {'alpha': 0.001}]
+f1: [f1: 0.5478791828671982 with params: {'alpha': 0.001}]
+precision: [precision: 0.5340055258101131 with params: {'alpha': 0.001}]
+recall: [recall: 0.6699999999999999 with params: {'alpha': 0.1}]
+roc_auc: [roc_auc: 0.8788532110091744 with params: {'alpha': 0.0001}]
+BernoulliNB
+accuracy: [accuracy: 0.7870244484197972 with params: {'alpha': 1.0}]
+f1: [f1: 0.5422222222222222 with params: {'alpha': 1.0}]
+precision: [precision: 0.5187532467532467 with params: {'alpha': 1.0}]
+recall: [recall: 0.72 with params: {'alpha': 1.0}]
+roc_auc: [roc_auc: 0.8926997497914929 with params: {'alpha': 0.0001}]
