@@ -1,0 +1,36 @@
+CART
+accuracy: [accuracy: 1.0 with params: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}]
+f1: [f1: 1.0 with params: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}]
+precision: [precision: 1.0 with params: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}]
+recall: [recall: 1.0 with params: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}]
+roc_auc: [roc_auc: 1.0 with params: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}]
+RandomForest
+accuracy: [accuracy: 1.0 with params: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 10}]
+f1: [f1: 1.0 with params: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 10}]
+precision: [precision: 1.0 with params: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 10}]
+recall: [recall: 1.0 with params: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 10}]
+roc_auc: [roc_auc: 1.0 with params: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 10}]
+SVM
+accuracy: [accuracy: 0.9752534287418009 with params: {'C': 1000, 'gamma': 0.001, 'kernel': 'sigmoid'}]
+f1: [f1: 0.9310193871169481 with params: {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}]
+precision: [precision: 0.9333333333333333 with params: {'C': 1000, 'gamma': 0.001, 'kernel': 'sigmoid'}]
+recall: [recall: 0.97 with params: {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}]
+roc_auc: [roc_auc: 0.9961484570475395 with params: {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}]
+GaussianNB
+accuracy: [accuracy: 0.8209183064997019 with params: {'var_smoothing': 1e-09}]
+f1: [f1: 0.6120642731304294 with params: {'var_smoothing': 1e-09}]
+precision: [precision: 0.566140526140526 with params: {'var_smoothing': 1e-09}]
+recall: [recall: 0.8 with params: {'var_smoothing': 1e-09}]
+roc_auc: [roc_auc: 0.9037372810675564 with params: {'var_smoothing': 1e-09}]
+MultinomialNB
+accuracy: [accuracy: 0.8133094812164579 with params: {'alpha': 0.001}]
+f1: [f1: 0.5478791828671982 with params: {'alpha': 0.001}]
+precision: [precision: 0.5340055258101131 with params: {'alpha': 0.001}]
+recall: [recall: 0.6699999999999999 with params: {'alpha': 0.1}]
+roc_auc: [roc_auc: 0.8788532110091744 with params: {'alpha': 0.0001}]
+BernoulliNB
+accuracy: [accuracy: 0.7870244484197972 with params: {'alpha': 1.0}]
+f1: [f1: 0.5422222222222222 with params: {'alpha': 1.0}]
+precision: [precision: 0.5187532467532467 with params: {'alpha': 1.0}]
+recall: [recall: 0.72 with params: {'alpha': 1.0}]
+roc_auc: [roc_auc: 0.8926997497914929 with params: {'alpha': 0.0001}]
