@@ -1,0 +1,36 @@
+CART
+accuracy: [accuracy: 1.0 with params: {'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__splitter': 'best'}]
+f1: [f1: 1.0 with params: {'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__splitter': 'best'}]
+precision: [precision: 1.0 with params: {'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__splitter': 'best'}]
+recall: [recall: 1.0 with params: {'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__splitter': 'best'}]
+roc_auc: [roc_auc: 1.0 with params: {'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__splitter': 'best'}]
+RandomForest
+accuracy: [accuracy: 1.0 with params: {'classifier__max_depth': None, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 10}]
+f1: [f1: 1.0 with params: {'classifier__max_depth': None, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 10}]
+precision: [precision: 1.0 with params: {'classifier__max_depth': None, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 10}]
+recall: [recall: 1.0 with params: {'classifier__max_depth': None, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 10}]
+roc_auc: [roc_auc: 1.0 with params: {'classifier__max_depth': None, 'classifier__max_features': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 10}]
+SVM
+accuracy: [accuracy: 0.9923076923076923 with params: {'classifier__C': 1000, 'classifier__gamma': 0.001, 'classifier__kernel': 'sigmoid'}]
+f1: [f1: 0.9655172413793104 with params: {'classifier__C': 1000, 'classifier__gamma': 0.001, 'classifier__kernel': 'sigmoid'}]
+precision: [precision: 0.13333333333333333 with params: {'classifier__C': 1, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}]
+recall: [recall: 1.0 with params: {'classifier__C': 1000, 'classifier__gamma': 0.001, 'classifier__kernel': 'sigmoid'}]
+roc_auc: [roc_auc: 0.9956896551724138 with params: {'classifier__C': 1000, 'classifier__gamma': 0.001, 'classifier__kernel': 'sigmoid'}]
+GaussianNB
+accuracy: [accuracy: 0.8846153846153846 with params: {'classifier__var_smoothing': 1e-09}]
+f1: [f1: 0.6153846153846154 with params: {'classifier__var_smoothing': 1e-09}]
+precision: [precision: 0.8 with params: {'classifier__var_smoothing': 1e-09}]
+recall: [recall: 0.5 with params: {'classifier__var_smoothing': 1e-09}]
+roc_auc: [roc_auc: 0.7358490566037735 with params: {'classifier__var_smoothing': 1e-09}]
+MultinomialNB
+accuracy: [accuracy: 0.8615384615384616 with params: {'classifier__alpha': 0.001}]
+f1: [f1: 0.5 with params: {'classifier__alpha': 0.001}]
+precision: [precision: 0.6 with params: {'classifier__alpha': 0.001}]
+recall: [recall: 0.4090909090909091 with params: {'classifier__alpha': 1.0}]
+roc_auc: [roc_auc: 0.6867627785058977 with params: {'classifier__alpha': 0.0001}]
+BernoulliNB
+accuracy: [accuracy: 0.823076923076923 with params: {'classifier__alpha': 0.1}]
+f1: [f1: 0.4888888888888889 with params: {'classifier__alpha': 0.1}]
+precision: [precision: 0.7333333333333333 with params: {'classifier__alpha': 0.1}]
+recall: [recall: 0.36666666666666664 with params: {'classifier__alpha': 0.1}]
+roc_auc: [roc_auc: 0.6633333333333333 with params: {'classifier__alpha': 0.0001}]
