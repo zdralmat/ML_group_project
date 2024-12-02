@@ -1,0 +1,37 @@
+LinearRegression
+neg_mean_squared_error: [neg_mean_squared_error: 0.0702912310319684 with params: {'copy_X': True, 'fit_intercept': False}]
+r2: [r2: 0.311349678585353 with params: {'copy_X': True, 'fit_intercept': False}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.20315041175255408 with params: {'copy_X': True, 'fit_intercept': True}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 668101721513101.8 with params: {'copy_X': True, 'fit_intercept': True}]
+HuberRegressor
+neg_mean_squared_error: [neg_mean_squared_error: 0.06888029944596748 with params: {'alpha': 100, 'epsilon': 100, 'max_iter': 100}]
+r2: [r2: 0.32517271847139106 with params: {'alpha': 100, 'epsilon': 10, 'max_iter': 100}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.12307604774945623 with params: {'alpha': 0.1, 'epsilon': 1, 'max_iter': 1000}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 12523261737966.05 with params: {'alpha': 1000, 'epsilon': 1, 'max_iter': 100}]
+RANSACRegressor
+neg_mean_squared_error: [neg_mean_squared_error: 0.0816925265330111 with params: {'max_trials': 100, 'min_samples': 0.1}]
+r2: [r2: -2.360673125362678 with params: {'max_trials': 100, 'min_samples': 0.1}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.11538461538461539 with params: {'max_trials': 100, 'min_samples': 1}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 519646110850441.9 with params: {'max_trials': 100, 'min_samples': 1}]
+TheilSenRegressor
+neg_mean_squared_error: [neg_mean_squared_error: 0.07018605987382834 with params: {'max_iter': 10000, 'max_subpopulation': 100, 'n_subsamples': 100}]
+r2: [r2: 0.32218200179019196 with params: {'max_iter': 300, 'max_subpopulation': 1000, 'n_subsamples': 100}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.1994924153231643 with params: {'max_iter': 1000, 'max_subpopulation': 1000, 'n_subsamples': 100}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 619503562152829.8 with params: {'max_iter': 1000, 'max_subpopulation': 100, 'n_subsamples': 100}]
+NuSVR
+neg_mean_squared_error: [neg_mean_squared_error: 0.05133956187112207 with params: {'C': 1, 'kernel': 'rbf', 'nu': 1}]
+r2: [r2: 0.49702110398726784 with params: {'C': 1, 'kernel': 'rbf', 'nu': 1}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.11447419925727333 with params: {'C': 0.1, 'kernel': 'poly', 'nu': 1}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 103598942135457.75 with params: {'C': 0.1, 'kernel': 'rbf', 'nu': 1}]
+DecisionTreeRegressor
+neg_mean_squared_error: [neg_mean_squared_error: 0.0 with params: {'criterion': 'squared_error', 'max_depth': None, 'splitter': 'best'}]
+r2: [r2: 1.0 with params: {'criterion': 'squared_error', 'max_depth': None, 'splitter': 'best'}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.0 with params: {'criterion': 'squared_error', 'max_depth': None, 'splitter': 'best'}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 0.0 with params: {'criterion': 'squared_error', 'max_depth': None, 'splitter': 'best'}]
+RandomForestRegressor
+neg_mean_squared_error: [neg_mean_squared_error: 0.0 with params: {'max_depth': None, 'n_estimators': 10}]
+r2: [r2: 1.0 with params: {'max_depth': None, 'n_estimators': 10}]
+neg_mean_absolute_error: [neg_mean_absolute_error: 0.0 with params: {'max_depth': None, 'n_estimators': 10}]
+neg_mean_absolute_percentage_error: [neg_mean_absolute_percentage_error: 0.0 with params: {'max_depth': None, 'n_estimators': 10}]
+
+ the negative metrics are alredy replaced with normal ones in the table
